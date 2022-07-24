@@ -1,3 +1,16 @@
+/*
+
+input = 5 returns
+
+*****
+*****
+*****
+*****
+*****
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
