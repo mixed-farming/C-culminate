@@ -23,3 +23,13 @@ int main()
 
     return 0;
 }
+
+/*
+
+How it works : 
+
+    The value of a*b is same as (a*2)*(b/2) if b is even, otherwise the value is same as ((a*2)*(b/2) + a). 
+In the while loop, we keep multiplying ‘a’ with 2 and keep dividing ‘b’ by 2. 
+If ‘b’ becomes odd in loop, we add ‘a’ to ‘res’. When value of ‘b’ becomes 1, the value of ‘res’ + ‘a’, gives us the result. 
+
+*/
