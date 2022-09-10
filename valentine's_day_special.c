@@ -2,6 +2,50 @@
 #include <stdlib.h>
 #include <math.h>
 
+/*
+
+sample output : 
+
+ENTER YOUR GENDER (m/f) : m
+
+*THINK OF THE PERSON YOU LOVE THE MOST
+PUT HER INFRONT OF YOUR IMAGINARY VISION*
+
+On a scale of 1-10 how much do you love that person (1 being least loving and 10 being most loving)? : 10
+
+
+I LOVE YOU VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY MUCH.
+
+
+      *******           *******
+    ***********       ***********
+   *************     *************
+  ***************   ***************
+ ***************** *****************
+ ***************** *****************
+*************************************
+*************************************
+*************************************
+ ***********************************
+  *********************************
+   *********            **********
+    ******** I LOVE YOU *********
+     *******            ********
+      *************************
+       ***********************
+        *********************
+         *******************
+          *****************
+           ***************
+            *************
+             ***********
+              *********
+               *******
+                *****
+                 ***
+
+*/
+
 int main()
 {
     int repeat=0;
@@ -9,6 +53,11 @@ int main()
 
     printf("ENTER YOUR GENDER (m/f) : ");
     scanf("%c",&gender);
+    while(gender!='m'&&gender!='f')
+    {
+        printf("Enter valid gender : ");
+        scanf("%c",&gender);
+    }
 
     if(gender=='m')
         {
