@@ -8,7 +8,7 @@ int main()
     printf("Enter the number : ");
     scanf("%d",&n);
 
-    while (j<sqrt(n))
+    while (j<=sqrt(n))
     {
         if (n % j == 0)
         {
