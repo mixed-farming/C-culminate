@@ -20,7 +20,7 @@ int main()
     printf("Enter the number of rows : ");
     scanf("%d",&n);
     
-    int length=2*n+(n-1)+(n-2);
+    int length=2*n+(n-1)+(n-2);//number of nodes
     int p=n,q=2*n+(n-2);//first_pointer,second_pointer
     int s=0;//space_equivalence
     for(int i=1;i<=n;i++)
