@@ -19,7 +19,7 @@ int main()
     x=7;
     y=7;
     z=7;
-    if((x==y)==(y==z))//OR if(!(x!=y || y!=z))
+    if(!(x!=y || y!=z))
     printf("\nx,y,z are equal.");
     else
     printf("\nAtleast two of x,y,z are not equal.");
