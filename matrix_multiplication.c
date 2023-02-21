@@ -28,7 +28,7 @@ int main()
             scanf("%d",&b[i][j]);
         }
 
-    //Matrix multiplication requires three nested loops.The outer loop traverses the m rows of matrix a.For each row of i ,another loop must cycle though the q columns of matrix b.For each column, form the sum of the products of corresponding elements from row i of matrix a and column j of matrix b.
+    //Matrix multiplication requires three nested loops.The outer loop traverses the m rows of matrix a.For each row of i ,another loop must cycle through the corresponding column of matrix b.For each column, form the sum of the products of corresponding elements from row i of matrix a and column j of matrix b.
         for(i=0; i<m; i++)
         for(j=0; j<q; j++)
         {
